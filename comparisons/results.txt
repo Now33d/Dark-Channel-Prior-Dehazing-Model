@@ -1,0 +1,67 @@
+result.png
+abs(t(x))   no
+minVal      yes  
+maxVal      yes
+255.0       yes
+to          0.01
+Description: Only the top left portion is constructed. The rest of
+the image is completely white. The constructed part is much clearer
+but still seems hazy.
+
+result2.png
+abs(t(x))   no
+minVal      no  
+maxVal      no
+255.0       no
+to          0.01
+Description: The top left portion is completely white. The rest of
+the image seems over-exposed.
+
+result3.png
+abs(t(x))   no
+minVal      no  
+maxVal      yes
+255.0       yes
+to          0.01
+Description: Only top left portion is reconstructed, the rest of
+the image is black. The reconstructed portion is high in contrast.
+
+result4.png
+abs(t(x))   no
+minVal      yes  
+maxVal      no
+255.0       no
+to          0.01
+Description: A completely blank white image
+
+result5.png
+abs(t(x))   no
+minVal      no  
+maxVal      yes
+255.0       no
+to          0.01
+Description: A completely blank black image
+
+result6.png
+abs(t(x))   no
+minVal      yes  
+maxVal      yes
+255.0       yes
+to          0.045
+Description: Extrapolated from result.png. The value of to has
+been changed. The constructed part is much clearer but still seems 
+hazy.
+
+result7.png
+abs(t(x))   no
+minVal      yes  
+maxVal      yes
+255.0       yes
+to          0.05
+
+result8.png
+abs(t(x))   no
+minVal      yes  
+maxVal      yes
+255.0       yes
+to          0.06
